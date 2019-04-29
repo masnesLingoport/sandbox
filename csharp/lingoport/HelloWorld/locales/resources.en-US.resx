@@ -41,6 +41,7 @@
     </resheader>
     <data name="DEMO_KEY_1" xml:space="preserve"><value>This is some text in U.S. English</value></data>
     <data name="DEMO_KEY_2" xml:space="preserve"><value>This is more text in U.S. English</value></data>
+    <data name="DEMO_KEY_2" xml:space="preserve"><value>Additional text</value></data>
 </root>
 
 
