@@ -9,7 +9,7 @@ public class Greeter {
 
 	public static void main(String[] args) {
 		String greeting = "Hello World!";
-		String goodbye = " Goodbye World.";
+		String goodbye = "Goodbye World.";
 		String seeyou = "See you tomorrow.";
 
 		String dateString = SimpleDateFormat("EEE h:mm aa").format(new Date());
