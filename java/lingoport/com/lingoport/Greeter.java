@@ -13,7 +13,7 @@ public class Greeter {
 		String seeyou = "See you tomorrow.";
 
 		String dateString = SimpleDateFormat("EEE h:mm aa").format(new Date());
-    String displayTime = "Current Time: " + dateString;
+		String displayTime = "Current Time: " + dateString;
 
 		System.out.println(greeting);
 		System.out.println(displayTime);
