@@ -12,8 +12,7 @@ public class Greeter {
 		String goodbye = " Goodbye World.";
 		String seeyou = "See you tomorrow.";
 
-		DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.DEFAULT);
-		String dateString = dateFormatter.format(new Date());
+		String dateString = SimpleDateFormat("EEE h:mm aa").format(new Date());
     String displayTime = "Current Time: " + dateString;
 
 		System.out.println(greeting);
