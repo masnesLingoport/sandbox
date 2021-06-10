@@ -2,6 +2,7 @@ var greeting = "Hello";
 greeting += " World!";
 
 var newText = "Confirming detection of i18n embedded string.";
+var lingobot = "Something new for a bot triggered scan.";
 
 var today = new Date();
 var dateString = today.getMonth() + "/" + today.getDay() + "/" + today.getYear();
